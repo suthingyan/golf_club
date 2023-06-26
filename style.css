@@ -1,0 +1,481 @@
+/* navigation */
+nav{
+    font-family: 'Roboto', sans-serif;
+    background-color:#272727;
+}
+/* .navbar-light .navbar-toggler {
+    border-color: white;
+} */
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.1em;
+    padding-right: 1.5rem;
+}
+.navbar-brand img{
+    width:250px;
+}
+/* navigation */
+
+/* join club */
+.joinClub{
+    font-family: 'Roboto', sans-serif;
+    /* height: 100vh;
+    background-image: url(Accessories/home\ Banner.jpg);
+    background-size: cover; */
+    
+}
+.joinClub .bg-img{
+    background-size: cover;
+}
+.joinClub .btn-md{
+    border-radius:0% ;
+    text-transform: uppercase;
+    width: 20%;
+}
+.joinClub #content{
+    margin-top: 0;
+    margin-bottom: 0%;
+    line-height:.2rem;
+    font-family: 'DM Serif Display', serif;
+    font-size: 5rem;
+    font-weight: bold;
+    word-spacing: 0rem;
+    text-align: center;
+}
+.joinClub  .overlayCard{
+    position: absolute; 
+    bottom:0%;
+    left: 0%;
+    right: 0%;
+    top:0%;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .9s ease;
+    opacity:.6;
+    color: white;
+    font-size: 15px;
+    padding: auto;
+    text-align: center;
+    
+  }
+  .joinClub .overlayText{
+    opacity: 1;
+  }
+.joinClub h1{
+    font-size: larger;
+}
+@media (max-width:960px) {
+    .joinClub h1{
+        font-size: 50%;
+    }
+    
+}
+/* .joinClub h6{
+    font-size:1rem;
+    word-spacing: 0rem;
+}
+.joinClub .btn{
+
+} */
+.joinClub .text-blue{
+    color: #05349E;
+}
+.joinClub .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.9); /* Black see-through */
+    color: #f1f1f1; 
+    transition: .5s ease;
+    opacity:.3;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    padding-top: 100%;
+
+    
+  }
+  .joinClub h6,button{
+    font-family: 'Roboto', sans-serif;
+  }
+.mouse{
+    color:white;
+    padding-bottom: 10%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,0%);
+    text-align: center;
+    
+}
+.chat{
+    display: flex;
+    float: right;
+    color: white;
+    background: #96CA41;
+    padding-bottom: 0%;
+    right:-100px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
+    width: 20%;
+    bottom: -23px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+/*end join club */
+
+/* golf training */
+.golfTraining{
+    font-family: 'Roboto', sans-serif;
+}
+.golfTraining .content {
+    font-family: 'Roboto', sans-serif;
+    text-align-last: right;
+    float: right!important;
+    text-align: justify;
+}
+.golfTraining .btn-md{
+    border-radius:0px ;
+    text-transform: uppercase;
+    font-weight:light;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: .1rem;
+}
+.golfTraining h5{
+    color: #05349E;
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+.golfTraining h2{
+    letter-spacing: .2rem;
+    font-family: 'DM Serif Display', serif;
+}
+.golfTraining .bg-green{
+    background-color: #96CA41;
+}
+.carouselImg{
+    display: flex;
+    margin-top: -600px;
+}
+
+@media (max-width:552px) {
+    .carouselImg{
+        display: flex;
+        margin-top:0px;
+    }
+    .carouselImg .card{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:960px) {
+    .carouselImg{
+        display: flex;
+        margin-top:0px;
+        margin-bottom: 5px;
+    }
+    .carouselImg .card{
+        margin-bottom: 5px;
+    }
+}
+.golfTraining .carouselIcon{
+    display: flex;
+    justify-content: end;
+}
+.golfTraining .carouselIcon button{ 
+    margin-left: 10px;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    width: auto;
+    width:2.5%;
+}
+.golfTraining .carouselIcon button i{
+    font-size: 80%;
+}
+
+.golfTraining .carouselImg .card{
+    border:none;
+}
+  
+.golfTraining .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+
+/*end golf training */
+
+/* golf club */
+.golfClub{
+    font-family: 'Roboto', sans-serif;
+}
+.golfClub .text-blue{
+    color:#05349E;
+    letter-spacing: .1rem;
+}
+.golfClub h3{
+    letter-spacing: .2rem;
+}
+.golfClub .golfClubImgHover .card img{
+  transition: transform .2s; /* Animation */
+  width: auto;
+}
+.golfClub #overlayCard{
+    padding-bottom: 9rem !important;
+
+}
+.golfClub .text-muted{
+    margin-bottom: 6rem;
+}
+.golfClub h3{
+    font-family: 'DM Serif Display', serif;
+}
+.golfClub .golfClubImgHover .card img:hover{
+   transform: scale(1);
+}
+.golfClub .golfClubImgHover .card{
+    border:none;
+}
+.golfClub .position-relative .golfClubImgHover{
+    position: absolute;
+}
+.golfClub .golfClubImgHover .imgHover{
+  position: absolute;
+  bottom: 10%;
+  left: 0%;
+  right: 0%;
+  top:0%;
+  overflow: hidden;
+  width:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  }
+  .golfClub .cardHover .overlayCard{
+    position: absolute; 
+    bottom:0%;
+    left: 0%;
+    right: 0%;
+    top:0%;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .9s ease;
+    opacity:0;
+    color: white;
+    font-size: 15px;
+    padding: auto;
+    text-align: center;
+    
+  }
+  .golfClub .cardHover .card:hover .overlayCard{
+    opacity: .7;
+    transition: .3s ease;
+  }
+  .golfClub .overlayText{
+    opacity: 0;
+    top:30%;
+    right: 20%;
+    
+  }
+  @media (max-width:960px) {
+    .golfClub .overlayText{
+        opacity: 0;
+        top:30%;
+        right: 30%;
+        
+      }
+  }
+  @media (max-width:520px) {
+    .golfClub .overlayText{
+        opacity: 0;
+        top:30%;
+        right: 10%;
+        
+      }
+  }
+  .golfClub  .card:hover .overlayText{
+    opacity: 1;
+    transition: .6s ease;
+  }
+  .golfClub .card:hover img{
+    transform: scale(1.1);
+  }
+  .golfClub .golfClubImgHover .card:hover .imgHover{
+  transform: scale(1);
+  background-color: transparent;
+  border:solid 2px white;
+  padding:10px;
+ 
+  }
+ .golfClub .cardHover button{
+    border-radius: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+@media (max-width:960px) {
+    .golfClub .g-0{
+        display: none;
+    }
+    .golfClub .position-relative .golfClubImgHover{ 
+        direction: inherit;
+        position: relative;
+        
+    }
+    .golfClub .position-relative .golfClubImgHover .card{
+        margin-bottom:20px;
+    }
+}
+.golfClub .text-white{
+    font-size: 15px;
+    letter-spacing: .1rem;
+}
+
+/* end golf club */
+
+/* events section */
+.events{
+    font-family: 'Roboto', sans-serif;
+}
+.events .text-uppercase a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10%;
+}
+
+.events .text-blue{
+    color:rgb(14, 14, 213);
+    letter-spacing:.1rem;
+    font-weight: bolder;
+}
+.events h2{
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: .2rem;
+}
+.events #free h3{
+    color:#96CA41;
+    font-weight:normal ;
+    text-align: center;
+}
+/* end events section */
+
+/* tour page */
+/* serarchHotels section */
+.searchHotels{
+    font-family: 'Roboto', sans-serif;
+}
+.searchHotels .bg-image{
+    background-image: url("Accessories/Rectangle\ 38.png");
+    filter: blur(5px);
+    -webkit-filter: blur(8px);
+ /* Full height */
+    height: 100vh; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* .searchHotels span{
+    top: 50%;
+  } */
+  
+  /* Position text in the middle of the page/image */
+  .searchHotels .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: auto;
+    top:50%;
+    left:50%;
+    padding: 20px;
+    text-align: center;
+
+  }
+/* end serarchHotels section */
+
+/* end tour page */
+/*footer*/
+.footer{
+    font-family: 'Roboto', sans-serif;
+    background-color: #4E4E4E;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .footer .item{
+    position: relative;
+} */
+
+.footer .bg-white{
+    font-weight: 20px;
+}
+.footer .logoImg .img1{
+    width:100px;
+    
+}
+.footer .logoImg .img2,.img3{
+    width:150px;
+}
+.footer .logoImg .img4{
+    width:70px;
+}
+.footer .logoImg .img5{
+    width:90px;
+}
+.footer .logoImg .img6{
+    width:150px;
+}
+.footer .item img{
+    width: 50px;
+    height: 20px;
+}
+.footer .contact h5{
+    color:#96CA41;
+    font-weight: bold;
+}
+
+.footer .contact .links ul li a{
+    color: white;
+    text-decoration: none;
+    line-height:2rem ;
+}
+.footer .bg-dark{
+    background-color: #272727;
+}
+/*end footer*/
+/* tour section */
+.dayTour{
+    font-family: 'Roboto', sans-serif;
+}
+.dayTour img{
+
+    width: 150px;
+}
+/* end tour section */
+
+
+
